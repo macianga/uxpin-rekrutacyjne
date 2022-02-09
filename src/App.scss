@@ -136,24 +136,52 @@ $font-color: #121212;
   margin: auto;
 }
 
+.text-link{
+  color: #6666ff !important;
+  display: inline-block;
+}
+
+
 .questions{
   background-color: #ffffff;
   width: 1170px;
-  p{
-    @extend .text-medium;
-    @extend .font-medium-bold;
-    line-height: 48px;
-    text-align: left;
-  }
-  span{
-    @extend .text-small;
-    width: 1170px;
-    height: 72px;
-    color: $font-color;
-    line-height: 36px;
-    text-decoration: none solid rgb(102, 102, 255);
-    text-align: left;
-    display: block;
+  margin-bottom: 150px;
+  margin-top: 3rem;
+  div{
+    margin-bottom: 3rem;
+    p{
+      @extend .text-medium;
+      @extend .font-medium-bold;
+      line-height: 48px;
+      text-align: left;
+    }
+    span{
+      @extend .text-small;
+      width: 1170px;
+      color: $font-color;
+      line-height: 36px;
+      text-decoration: none solid rgb(102, 102, 255);
+      text-align: left;
+      display: block;
+    }
+    div{
+      p{
+        width: 1169px;
+        font-size: 24px;
+        color: #121212;
+        text-decoration: none solid rgb(18, 18, 18);
+        line-height: 32px;
+        font-weight: 600;
+      }
+      span{
+        width: 1169px;
+        /* Use ready MUI kit... */
+        font-size: 20px;
+        color: #121212;
+        text-decoration: none solid rgb(18, 18, 18);
+        line-height: 28px;
+      }
+    }
   }
 }
 

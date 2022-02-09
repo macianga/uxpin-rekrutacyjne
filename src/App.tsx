@@ -61,26 +61,45 @@ function App() {
         <div className="hero-img"/>
       </div>
       <div className="questions">
-        <p>What is MUI?</p>
-        <span>
-          Top React UI library with interactive components ready for prototyping and production. Use in your design workflow with UXPin Merge.
-        </span>
-        <p>Build products with fully interactive components</p>
-        <span>
-          Use interactive MUI components and create designs that follow Material Design principles. With all UI elements being powered by React, MUI library allows you to build fully immersive prototypes in a matter of minutes.
-        </span>
-        <p>Adjust, unify, and scale your design system</p>
-        <span>
-          Build your design system, with a single source of truth in mind. With the MUI library in UXPin, design and development needs no translation, as you all build your product using the very same code-based components.
-        </span>
-        <p>Use production-ready UI components</p>
-        <span>
-          Use MUI components in the design, handoff, and development to ensure the ultimate consistency throughout the whole development process. Rely on a trusted React framework that can be easily customised using CSS utilities.
-        </span>
-        <p>Need more details? Read the documentation.</p>
-        <span>
-          See the MUI library documentation in our Git repository. Check for yourself how Merge technology can help you bring code components into design workflow.
-        </span>
+        <div>
+          <p>What is MUI?</p>
+          <span>
+            Top React UI library with interactive components ready for prototyping and production.
+            Use in your design workflow with <a className="text-link">UXPin Merge</a>.
+          </span>
+        </div>
+        <div>
+          <p>Build products with fully interactive components</p>
+          <span>
+            Use interactive MUI components and create designs that follow Material Design principles. With all UI elements being powered by React, MUI library allows you to build fully immersive prototypes in a matter of minutes.
+          </span>
+        </div>
+        <div>
+          <p>Adjust, unify, and scale your design system</p>
+          <span>
+            Build your design system, with a single source of truth in mind. With the MUI library in UXPin, design and development needs no translation, as you all build your product using the very same code-based components.
+          </span>
+          <div>
+            <p>Clear documentation for designers and developers</p>
+            <span>Use ready MUI kit documentation. Build consistent design systems and features with the help of documentation created for both designers and developers.</span>
+            <p>UI components with true functional fidelity</p>
+            <span>Leverage the power of code to reach higher fidelity than ever. Build your design system and design with components that have built-in full interactivity.</span>
+            <p>Built with accessibility in mind</p>
+            <span>Prototype with components that will help you reach a greater audience. Design with ready elements that are accessible. Make sure your product can be used by everyone.</span>
+          </div>
+        </div>
+        <div>
+          <p>Use production-ready UI components</p>
+          <span>
+            Use MUI components in the design, handoff, and development to ensure the ultimate consistency throughout the whole development process. Rely on a trusted React framework that can be easily customised using CSS utilities.
+          </span>
+        </div>
+        <div>
+          <p>Need more details? Read the documentation.</p>
+          <span>
+            See the MUI library documentation in our Git repository. Check for yourself how Merge technology can help you bring code components into design workflow.
+          </span>
+        </div>
       </div>
       <div className="footer">
         <div className="footer-menu">
