@@ -1,8 +1,143 @@
 $primary-color: #333;
+$bg-color: #f3f3f3;
+$font-color: #121212;
 
-.App {
+.main-content {
+  text-align: center;
+  width: 1440px;
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mui-example{
+  width: 100%;
+  padding-bottom: 5rem;
+  background-color: $bg-color;
+}
+
+.text{
+  color: $font-color;
+}
+
+.text-large{
+  @extend .text;
+  font-size: 64px;
+}
+.text-medium{
+  @extend .text;
+  font-size: 36px;
+}
+.text-small{
+  @extend .text;
+  font-size: 24px;
+}
+
+.font-bold{
+  font-weight: 800;
+}
+
+.font-medium-bold{
+  font-weight: 700;
+}
+
+.title{
+  width: 900px;
+  text-decoration: none solid rgb(18, 18, 18);
+  line-height: 72px;
+  display: inline;
+}
+
+.description{
+  width: 756px;
+  height: 72px;
+  font-size: 24px;
+  color: $font-color;
+  text-decoration: none solid rgb(18, 18, 18);
+  line-height: 36px;
+  text-align: center;
+  display: inline;
+}
+
+.email-input-group{
+
+}
+
+.input-email{
+  width: 320px;
+  height: 12px;
+  padding: 16px;
+  border: 2px solid #121212;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #121212;
+  text-decoration: none solid rgb(18, 18, 18);
+
+  margin-right: 1.5rem;
+}
+
+.button{
+  padding: 14px 30px;
+  border: 2px solid #121212;
+  border-radius: 4px;
+  background-color: #fcc820;
+  font-size: 16px;
+  color: #121212;
+  text-decoration: none solid rgb(18, 18, 18);
+  line-height: 16px;
   text-align: center;
 }
+
+.hero-img{
+  width: 1170px;
+  height: 464px;
+  fill: #dadada;
+  background-image: url("images/hero.svg");
+  margin: auto;
+}
+
+.questions{
+  background-color: #ffffff;
+  width: 1170px;
+  p{
+    @extend .text-medium;
+    @extend .font-medium-bold;
+    line-height: 48px;
+    text-align: left;
+  }
+  span{
+    @extend .text-small;
+    width: 1170px;
+    height: 72px;
+    color: $font-color;
+    line-height: 36px;
+    text-decoration: none solid rgb(102, 102, 255);
+    text-align: left;
+    display: block;
+  }
+}
+
+.footer{
+  width: 1440px;
+  height: 515px;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;

@@ -1,43 +1,58 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="main-content">
+      <div className="mui-example">
+        <div className="title">
+          <span className="text-large font-bold">
+            Here comes MUI:<br/>fully interactive UI library<br/>
+          </span>
+        </div>
+        <div className="description">
+          <span>
+            Design and code with a ready Merge library – MUI.<br/>
+            Prototype with React UI components and templates that feel real.
+          </span>
+        </div>
+        <div className="email-input-group">
+          <form>
+            <input
+              type="text"
+              className="input-email"
+              placeholder="Work email"
+            />
+            <input type="button" className="button" value="Try MUI in UXPin"/>
+          </form>
+        </div>
+        <div className="hero-img"/>
+      </div>
+      <div className="questions">
+        <p>What is MUI?</p>
+        <span>
+          Top React UI library with interactive components ready for prototyping and production. Use in your design workflow with UXPin Merge.
+        </span>
+        <p>Build products with fully interactive components</p>
+        <span>
+          Use interactive MUI components and create designs that follow Material Design principles. With all UI elements being powered by React, MUI library allows you to build fully immersive prototypes in a matter of minutes.
+        </span>
+        <p>Adjust, unify, and scale your design system</p>
+        <span>
+          Build your design system, with a single source of truth in mind. With the MUI library in UXPin, design and development needs no translation, as you all build your product using the very same code-based components.
+        </span>
+        <p>Use production-ready UI components</p>
+        <span>
+          Use MUI components in the design, handoff, and development to ensure the ultimate consistency throughout the whole development process. Rely on a trusted React framework that can be easily customised using CSS utilities.
+        </span>
+        <p>Need more details? Read the documentation.</p>
+        <span>
+          See the MUI library documentation in our Git repository. Check for yourself how Merge technology can help you bring code components into design workflow.
+        </span>
+      </div>
+      <div className="footer">
+
+      </div>
     </div>
   )
 }
