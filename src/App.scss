@@ -161,11 +161,33 @@ $font-color: #121212;
   width: 1440px;
   height: 515px;
   background-color: #000000;
+
 }
 
-
-
-
+.footer-menu{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer-single-menu{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  p{
+    opacity: 0.5;
+    font-size: 12px;
+    color: #acacac;
+    text-decoration: none solid rgb(172, 172, 172);
+    line-height: 32px;
+    letter-spacing: 2px;
+  }
+  span{
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #acacac;
+    text-decoration: none solid rgb(172, 172, 172);
+    line-height: 32px;
+  }
+}
 
 
 

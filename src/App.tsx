@@ -83,7 +83,39 @@ function App() {
         </span>
       </div>
       <div className="footer">
-
+        <div className="footer-menu">
+          <div className="footer-single-menu">
+            <p>UXPIN</p>
+            <span></span>
+            <span>Import from Sketch</span>
+            <span>Customers</span>
+            <span>Enterprise</span>
+            <span>etc.</span>
+          </div>
+          <div className="footer-single-menu">
+            <p>COMPARE</p>
+            <span></span>
+            <span>UXPin vs Figma</span>
+            <span>UXPin vs Invision</span>
+            <span>UXPin vs ...</span>
+          </div>
+          <div className="footer-single-menu">
+            <p>RESOURCES</p>
+            <span></span>
+            <span>Docs</span>
+            <span>Video Tutorials</span>
+            <span>Blog</span>
+            <span>E-books</span>
+          </div>
+          <div className="footer-single-menu">
+            <p>ABOUT</p>
+            <span></span>
+            <span>Company</span>
+            <span>Jobs</span>
+            <span>Press Kit</span>
+            <span>etc.</span>
+          </div>
+        </div>
       </div>
     </div>
   )
