@@ -12,7 +12,44 @@ $font-color: #121212;
   align-items: center;
 }
 
+.top-bar{
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 80%;
+  background-color: white;
+}
+.top-bar-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr;
+  height: 100%;
+  div{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    span{
+      width: 55px;
+      height: 24px;
+      font-size: 14px;
+      color: #666666;
+      text-decoration: none solid rgb(102, 102, 102);
+      line-height: 24px;
+    }
+    img{
+      width: 24px;
+      height: 24px;
+      fill: #8b8b8b;
+    }
+  }
+}
+
+
+
+
+
 .mui-example{
+  margin-top: 60px;
   width: 100%;
   padding-bottom: 5rem;
   background-color: $bg-color;

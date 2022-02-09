@@ -4,6 +4,38 @@ function App() {
 
   return (
     <div className="main-content">
+      <div className="top-bar">
+        <div className="top-bar-grid">
+          <div>
+            <span>Feature</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div>
+            <span>Examples</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div>
+            <span>Enterprise</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div>
+            <span>Pricing</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div>
+            <span>Resource</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div>
+            <span>Merge</span>
+            <img src="/src/images/menu-arrow.svg"/>
+          </div>
+          <div/>
+          <div>
+            <span style={{width: "100%"}}>1 (888) 802-9327</span>
+          </div>
+        </div>
+      </div>
       <div className="mui-example">
         <div className="title">
           <span className="text-large font-bold">
