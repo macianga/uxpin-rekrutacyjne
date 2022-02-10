@@ -1,6 +1,7 @@
 @import "scss/text";
 @import "scss/colors";
 @import "scss/icons";
+@import "scss/generic";
 
 .main-content {
   text-align: center;
@@ -33,27 +34,6 @@
   padding-right: 1rem;
   align-self: center;
 }
-
-.log-in-button {
-  @extend .text-xsmall;
-  height: 36px;
-  padding: 8px 12px;
-  border: 2px solid #121212;
-  border-radius: 4px;
-  background-color: #fcc820;
-  background-size: cover;
-  font-weight: 600;
-  color: #121212;
-  text-decoration: none solid rgb(18, 18, 18);
-  line-height: 16px;
-  text-align: center;
-  cursor: pointer;
-
-  &:hover {
-    background-color: $bg-color;
-  }
-}
-
 
 .new-item {
   border-radius: 2px;
@@ -147,24 +127,6 @@
   }
 }
 
-.button {
-  @extend .font-semi-bold;
-  padding: 14px 30px;
-  border: 2px solid #121212;
-  border-radius: 4px;
-  background-color: #fcc820;
-  font-size: 16px;
-  color: #121212;
-  text-decoration: none solid rgb(18, 18, 18);
-  line-height: 16px;
-  text-align: center;
-  cursor: pointer;
-
-  &:hover {
-    background-color: $bg-color;
-  }
-}
-
 
 .hero-img {
   width: 1170px;
@@ -172,11 +134,6 @@
   fill: #dadada;
   background-image: url("images/hero.svg");
   margin: auto;
-}
-
-.text-link {
-  color: $link-color;
-  display: inline-block;
 }
 
 
@@ -248,7 +205,6 @@
     margin-left: 1rem;
   }
 }
-
 
 .copyright-text {
   @extend .text-xsmall;

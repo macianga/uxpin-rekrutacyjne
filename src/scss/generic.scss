@@ -1,0 +1,28 @@
+@import "colors";
+
+.btn {
+  @extend .font-semi-bold;
+  border: 2px solid $font-color;
+  border-radius: 4px;
+  background-color: $yellow-color;
+  color: $font-color;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bg-color;
+  }
+}
+
+.btn-medium {
+  @extend .btn;
+  padding: 14px 30px;
+  font-size: 16px;
+}
+
+.btn-small {
+  @extend .btn;
+  @extend .text-xsmall;
+  padding: 8px 12px;
+}

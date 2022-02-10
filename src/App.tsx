@@ -63,7 +63,7 @@ function App() {
           </div>
           <div>
             <span className="log-in-text">Log in</span>
-            <button className="log-in-button">Try for free</button>
+            <button className="btn-small">Try for free</button>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ function App() {
             value={emailValue}
             onChange={e=> setEmailValue(e.target.value)}
           />
-          <input type="submit" className="button" value="Try MUI in UXPin"/>
+          <input type="submit" className="btn-medium" value="Try MUI in UXPin"/>
         </form>
         <div className="hero-img"/>
       </div>
