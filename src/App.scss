@@ -76,7 +76,7 @@
 
 
 .top-bar-grid{
-  margin: 0 1rem;
+  margin: 0 0.75rem;
   display: grid;
   grid-template-columns: 0.5fr repeat(7, 1fr) 2fr 2fr 0.5fr;
   height: 100%;
@@ -240,7 +240,7 @@
     margin-right: 20px;
   }
   span:last-of-type{
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 
