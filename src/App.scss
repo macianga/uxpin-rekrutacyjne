@@ -24,6 +24,7 @@
   width: 100%;
   display: flex;
   justify-content: end;
+  margin-right: 24px;
 }
 
 .top-bar-logo{
@@ -51,6 +52,7 @@
   text-decoration: none solid rgb(18, 18, 18);
   line-height: 16px;
   text-align: center;
+  cursor: pointer;
   &:hover{
     background-color: $bg-color;
   }
@@ -75,24 +77,25 @@
 
 .top-bar-grid{
   display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr 0.5fr;
+  grid-template-columns: 0.5fr repeat(7, 1fr) 2fr 2fr 0.5fr;
   height: 100%;
   div{
     display: flex;
     flex-direction: row;
     align-self: center;
     justify-self: center;
+    cursor: pointer;
     span{
-      height: 24px;
-      font-size: 14px;
-      color: #666666;
-      text-decoration: none solid rgb(102, 102, 102);
+      @extend .text-xsmall;
+      color: $gray-text-color;
       line-height: 24px;
+      &:hover{
+        text-decoration: underline;
+      }
     }
     img{
       width: 24px;
       height: 24px;
-      fill: #8b8b8b;
     }
   }
 }
@@ -154,6 +157,7 @@
   text-decoration: none solid rgb(18, 18, 18);
   line-height: 16px;
   text-align: center;
+  cursor: pointer;
   &:hover{
     background-color: $bg-color;
   }

@@ -33,8 +33,8 @@ function App() {
             <span>Merge</span>
             <img src="/src/images/menu-arrow.svg"/>
           </div>
-          <div>
-            <span style={{width: "100%"}}>1 (888) 802-9327</span>
+          <div style={{textAlign: "left", width: "100%", marginLeft: "60px"}}>
+            <span>1 (888) 802-9327</span>
           </div>
           <div>
             <span className="log-in-text">Log in</span>
