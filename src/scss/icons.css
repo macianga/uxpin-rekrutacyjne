@@ -14,28 +14,28 @@
 }
 
 .menu-arrow-icon {
-    background-image: url("src/images/menu-arrow.svg");
+    background-image: url("/src/images/menu-arrow.svg");
 }
 
 .uxpin-logo-black-fill {
-    background-image: url("src/images/UXPin-Logo-BlackFill.svg");
+    background-image: url("/src/images/UXPin-Logo-BlackFill.svg");
 }
 
 .uxpin-logo-white-fill {
-    background-image: url("src/images/UXPin-Logo-WhiteFill.svg");
+    background-image: url("/src/images/UXPin-Logo-WhiteFill.svg");
 }
 
 .facebook-logo {
-    background-image: url("src/images/facebook-logo.svg");
+    background-image: url("/src/images/facebook-logo.svg");
     background-repeat: no-repeat;
 }
 
 .twitter-logo {
-    background-image: url("src/images/twitter-logo.svg");
+    background-image: url("/src/images/twitter-logo.svg");
     background-repeat: no-repeat;
 }
 
 .dribble-ball-logo {
-    background-image: url("src/images/dribbble-ball-logo.svg");
+    background-image: url("/src/images/dribbble-ball-logo.svg");
     background-repeat: no-repeat;
 }
