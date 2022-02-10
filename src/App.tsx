@@ -2,21 +2,26 @@ import './App.scss'
 import {useEffect, useState} from "react";
 import butter from "./utils/butter-client";
 
+type ButterCmsFieldsType = {
+  header: string,
+  header_description: string,
+}
+
+
 function App() {
-  const [pageContent, setPageContent] = useState();
+  const [pageContent, setPageContent] = useState<ButterCmsFieldsType>();
   const [emailValue, setEmailValue] = useState("")
 
   useEffect(()=>{
     const asyncGetter = async ()=>{
       const resp = await butter.page.retrieve('*', 'uxpin-landing-page');
-      setPageContent(resp.data.data.fields)
-
+      setPageContent(resp.data.data.fields);
     }
     asyncGetter();
   }, [])
 
 
-  const getTextElement = (text: string) => {
+  const getTextElement = (text: string | undefined) => {
     if(!text) return;
     return <span dangerouslySetInnerHTML={{__html: text}} />;
   }
