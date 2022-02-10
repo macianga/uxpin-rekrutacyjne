@@ -1,6 +1,25 @@
 import './App.scss'
+import {useEffect, useState} from "react";
+import butter from "./utils/butter-client";
 
 function App() {
+  const [pageContent, setPageContent] = useState();
+
+  useEffect(()=>{
+    const asyncGetter = async ()=>{
+      const resp = await butter.page.retrieve('*', 'uxpin-landing-page');
+      setPageContent(resp.data.data.fields)
+
+    }
+    asyncGetter();
+  }, [])
+
+
+  const getTextElement = (text: string) => {
+    if(!text) return;
+    return <span dangerouslySetInnerHTML={{__html: text}} />;
+  }
+
 
   return (
     <div className="main-content">
@@ -45,13 +64,12 @@ function App() {
       <div className="mui-example">
         <div className="title">
           <span className="text-large font-extra-bold" style={{lineHeight: "1rem"}}>
-            Here comes MUI:<br/>fully interactive UI library<br/>
+            {getTextElement(pageContent?.header)}
           </span>
         </div>
         <div className="description">
           <span>
-            Design and code with a ready Merge library – MUI.<br/>
-            Prototype with React UI components and templates that feel real.
+            {getTextElement(pageContent?.header_description)}
           </span>
         </div>
         <div className="email-input-group">
