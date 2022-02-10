@@ -28,7 +28,7 @@ function TopBar() {
           <div className="icon-small menu-arrow-icon"/>
         </div>
         <div>
-          <span className="new-item" style={{marginRight: "0.3rem"}}>NEW</span>
+          <div className="new-item" style={{marginRight: "0.3rem"}}>NEW</div>
           <span>Merge</span>
           <div className="icon-small menu-arrow-icon"/>
         </div>

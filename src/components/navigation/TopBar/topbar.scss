@@ -50,11 +50,11 @@
 
 .new-item {
   border-radius: 2px;
-  padding: 0 0.3rem;
-  background-color: #fcc820;
-  font-size: 12px !important;
+  padding: 0 0.4rem;
+  background-color: $yellow-color;
+  font-size: 12px;
   font-weight: 600;
-  color: #121212 !important;
+  color: $font-color;
   text-transform: uppercase;
   text-align: center;
 }
