@@ -1,4 +1,5 @@
 Here is the finished version: https://uxpin-landing.web.app/ <br/>
+Created in React&Typescript + sass + Vite and ButterCMD for content management
 <hr/>
 <h1>Task:</h1>
 
