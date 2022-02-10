@@ -1,6 +1,6 @@
 @import "scss/text";
 @import "scss/colors";
-@import "scss/logos";
+@import "scss/icons";
 
 .main-content {
   text-align: center;
@@ -25,13 +25,6 @@
   display: flex;
   justify-content: end;
   margin-right: 24px;
-}
-
-
-.menu-arrow {
-  background-image: url("images/menu-arrow.svg");
-  width: 24px;
-  height: 24px;
 }
 
 
@@ -66,19 +59,14 @@
   border-radius: 2px;
   padding: 0 0.3rem;
   background-color: #fcc820;
-  background-size: cover;
   font-size: 12px !important;
   font-weight: 600;
   color: #121212 !important;
-  text-decoration: none solid rgb(18, 18, 18);
-  line-height: 12px;
   text-transform: uppercase;
   text-align: center;
-  margin-right: 0.3rem;
 }
 
-
-.top-bar-grid {
+.top-bar-container {
   margin: 0 0.75rem;
   display: grid;
   grid-template-columns: 0.5fr repeat(7, 1fr) 2fr 2fr 0.5fr;
@@ -103,27 +91,26 @@
   }
 }
 
-.mui-example {
+.mui-example-header {
   padding-top: 170px;
   width: 100%;
   padding-bottom: 5rem;
   background-color: $bg-color;
 }
 
-
 .title {
   line-height: 72px;
+  display: inline-block;
 }
 
 .description {
-  width: 756px;
-  height: 72px;
+  margin-top: 24px;
   font-size: 24px;
   color: $font-color;
   text-decoration: none solid rgb(18, 18, 18);
   line-height: 36px;
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 
 .email-input-group {
@@ -193,15 +180,14 @@
 }
 
 
-.questions {
-  background-color: #ffffff;
+.questions-and-description {
+  background-color: $white-color;
   width: 1170px;
   text-align: left;
   margin-bottom: 100px;
   margin-top: 80px;
 
   div {
-    //margin-bottom: 3rem;
     margin-bottom: 50px;
 
     p {
@@ -223,7 +209,7 @@
     div {
       p {
         font-size: 24px;
-        color: #121212;
+        color: $font-color;
         line-height: 32px;
         font-weight: 600;
         margin-bottom: 17px;
@@ -231,7 +217,7 @@
 
       span {
         font-size: 20px;
-        color: #121212;
+        color: $font-color;
         line-height: 28px;
         margin-bottom: 30px;
       }
@@ -240,9 +226,9 @@
 }
 
 
-.social-n-terms {
+.social-and-terms {
   @extend .text-xsmall;
-  color: #acacac;
+  color: $gray-color;
   display: flex;
   flex-direction: row;
 
@@ -264,11 +250,10 @@
 }
 
 
-.copyright {
+.copyright-text {
   @extend .text-xsmall;
-  height: 14px;
   opacity: 0.5;
-  color: #acacac;
+  color: $gray-color;
   text-align: left;
 }
 

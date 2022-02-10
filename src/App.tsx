@@ -30,33 +30,33 @@ function App() {
   return (
     <div className="main-content">
       <div className="top-bar">
-        <div className="top-bar-grid">
+        <div className="top-bar-container">
           <div/>
           <div className="top-bar-logo-container">
-            <div className="logo-medium uxpin-logo-black-fill"/>
+            <div className="icon-medium uxpin-logo-black-fill"/>
           </div>
           <div>
             <span>Feature</span>
-            <div className="menu-arrow"/>
+            <div className="icon-small menu-arrow-icon"/>
           </div>
           <div>
             <span>Examples</span>
           </div>
           <div>
             <span>Enterprise</span>
-            <div className="menu-arrow"/>
+            <div className="icon-small menu-arrow-icon"/>
           </div>
           <div>
             <span>Pricing</span>
           </div>
           <div>
             <span>Resource</span>
-            <div className="menu-arrow"/>
+            <div className="icon-small menu-arrow-icon"/>
           </div>
           <div>
-            <span className="new-item">NEW</span>
+            <span className="new-item" style={{marginRight: "0.3rem"}}>NEW</span>
             <span>Merge</span>
-            <div className="menu-arrow"/>
+            <div className="icon-small menu-arrow-icon"/>
           </div>
           <div style={{textAlign: "left", width: "100%", marginLeft: "60px"}}>
             <span>1 (888) 802-9327</span>
@@ -67,32 +67,26 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mui-example">
-        <div className="title">
-          <span className="text-large font-extra-bold" style={{lineHeight: "1rem"}}>
-            {getTextElement(pageContent?.header)}
-          </span>
-        </div>
-        <div className="description">
-          <span>
-            {getTextElement(pageContent?.header_description)}
-          </span>
-        </div>
-        <div className="email-input-group">
-          <form onSubmit={e => e.preventDefault()}>
-            <input
-              type="email"
-              className="input-email"
-              placeholder="Work email"
-              value={emailValue}
-              onChange={e=> setEmailValue(e.target.value)}
-            />
-            <input type="submit" className="button" value="Try MUI in UXPin"/>
-          </form>
-        </div>
+      <div className="mui-example-header">
+        <span className="title text-large font-extra-bold">
+          {getTextElement(pageContent?.header)}
+        </span>
+        <span className="description">
+          {getTextElement(pageContent?.header_description)}
+        </span>
+        <form className="email-input-group" onSubmit={e => e.preventDefault()}>
+          <input
+            type="email"
+            className="input-email"
+            placeholder="Work email"
+            value={emailValue}
+            onChange={e=> setEmailValue(e.target.value)}
+          />
+          <input type="submit" className="button" value="Try MUI in UXPin"/>
+        </form>
         <div className="hero-img"/>
       </div>
-      <div className="questions">
+      <div className="questions-and-description">
         <div>
           <p>What is MUI?</p>
           <span>
@@ -134,7 +128,7 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <div className="logo-medium uxpin-logo-white-fill"/>
+        <div className="icon-medium uxpin-logo-white-fill"/>
         <div className="footer-menu">
           <div className="footer-single-menu">
             <p>UXPIN</p>
@@ -169,16 +163,16 @@ function App() {
             <span>etc.</span>
           </div>
         </div>
-        <span className="copyright">
+        <span className="copyright-text">
           © UXPin Inc. All rights reserved.
         </span>
-        <div className="social-n-terms">
+        <div className="social-and-terms">
           <span>Privacy</span>
           <span>Terms of Service</span>
           <div className="social-media-logos">
-            <div className="logo-xsmall facebook-logo" style={{display: "inline-block"}}/>
-            <div className="logo-xsmall twitter-logo" style={{display: "inline-block"}}/>
-            <div className="logo-xsmall dribble-ball-logo" style={{display: "inline-block"}}/>
+            <div className="icon-xsmall facebook-logo" style={{display: "inline-block"}}/>
+            <div className="icon-xsmall twitter-logo" style={{display: "inline-block"}}/>
+            <div className="icon-xsmall dribble-ball-logo" style={{display: "inline-block"}}/>
           </div>
         </div>
       </div>

@@ -1,11 +1,20 @@
-.logo-medium {
+.icon-medium {
     width: 40px;
     height: 40px;
 }
 
-.logo-xsmall {
+.icon-small{
+    width: 24px;
+    height: 24px;
+}
+
+.icon-xsmall {
     width: 16px;
     height: 16px;
+}
+
+.menu-arrow-icon {
+    background-image: url("src/images/menu-arrow.svg");
 }
 
 .uxpin-logo-black-fill {
@@ -15,7 +24,6 @@
 .uxpin-logo-white-fill {
     background-image: url("src/images/UXPin-Logo-WhiteFill.svg");
 }
-
 
 .facebook-logo {
     background-image: url("src/images/facebook-logo.svg");
