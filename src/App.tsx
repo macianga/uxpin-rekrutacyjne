@@ -2,6 +2,7 @@ import './App.scss'
 import {useEffect, useState} from "react";
 import butter from "./utils/butter-client";
 import Footer from "./components/navigation/Footer/Footer";
+import TopBar from "./components/navigation/TopBar/TopBar";
 
 type ButterCmsFieldsType = {
   header: string,
@@ -30,44 +31,7 @@ function App() {
 
   return (
     <div className="main-content">
-      <div className="top-bar">
-        <div className="top-bar-container">
-          <div/>
-          <div className="top-bar-logo-container">
-            <div className="icon-medium uxpin-logo-black-fill"/>
-          </div>
-          <div>
-            <span>Feature</span>
-            <div className="icon-small menu-arrow-icon"/>
-          </div>
-          <div>
-            <span>Examples</span>
-          </div>
-          <div>
-            <span>Enterprise</span>
-            <div className="icon-small menu-arrow-icon"/>
-          </div>
-          <div>
-            <span>Pricing</span>
-          </div>
-          <div>
-            <span>Resource</span>
-            <div className="icon-small menu-arrow-icon"/>
-          </div>
-          <div>
-            <span className="new-item" style={{marginRight: "0.3rem"}}>NEW</span>
-            <span>Merge</span>
-            <div className="icon-small menu-arrow-icon"/>
-          </div>
-          <div style={{textAlign: "left", width: "100%", marginLeft: "60px"}}>
-            <span>1 (888) 802-9327</span>
-          </div>
-          <div>
-            <span className="log-in-text">Log in</span>
-            <button className="btn-small">Try for free</button>
-          </div>
-        </div>
-      </div>
+      <TopBar/>
       <div className="mui-example-header">
         <span className="title text-large font-extra-bold">
           {getTextElement(pageContent?.header)}
