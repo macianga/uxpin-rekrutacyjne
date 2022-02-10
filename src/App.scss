@@ -106,7 +106,7 @@ $font-color: #121212;
 }
 
 .input-email{
-  width: 320px;
+  width: 284px;
   height: 12px;
   padding: 16px;
   border: 2px solid #121212;
@@ -129,7 +129,12 @@ $font-color: #121212;
   text-decoration: none solid rgb(18, 18, 18);
   line-height: 16px;
   text-align: center;
+  &:hover{
+    background-color: $bg-color;
+
+  }
 }
+
 
 .hero-img{
   width: 1170px;
