@@ -2,7 +2,7 @@ import "./footer.scss"
 
 function Footer() {
   return (
-      <div className="footer">
+      <footer className="footer">
         <div className="icon-medium uxpin-logo-white-fill"/>
         <div className="footer-menu">
           <div className="footer-single-menu">
@@ -50,7 +50,7 @@ function Footer() {
             <div className="icon-xsmall dribble-ball-logo" style={{display: "inline-block"}}/>
           </div>
         </div>
-      </div>
+      </footer>
   )
 }
 

@@ -14,7 +14,7 @@
 }
 
 .mui-example-header {
-  padding-top: 170px;
+  padding-top: 148px;
   width: 100%;
   padding-bottom: 5rem;
   background-color: $bg-color;
@@ -26,7 +26,7 @@
 }
 
 .description {
-  margin-top: 24px;
+  margin-top: 30px;
   font-size: 24px;
   color: $font-color;
   text-decoration: none solid rgb(18, 18, 18);
@@ -36,7 +36,7 @@
 }
 
 .email-input-group {
-  padding-top: 31px;
+  padding-top: 1.75rem;
   padding-bottom: 80px;
 }
 
@@ -49,7 +49,7 @@
   background-color: $white-color;
   font-size: 16px;
   color: $font-color;
-  margin-right: 1.5rem;
+  margin-right: 1.25rem;
   cursor: pointer;
 
   &::placeholder {
