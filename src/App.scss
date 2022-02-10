@@ -169,7 +169,7 @@
 }
 
 .text-link{
-  color: #6666ff !important;
+  color: $link-color;
   display: inline-block;
 }
 
@@ -177,41 +177,39 @@
 .questions{
   background-color: #ffffff;
   width: 1170px;
-  margin-bottom: 150px;
-  margin-top: 3rem;
+  text-align: left;
+  margin-bottom: 100px;
+  margin-top: 80px;
   div{
-    margin-bottom: 3rem;
+    //margin-bottom: 3rem;
+    margin-bottom: 50px;
     p{
       @extend .text-medium;
-      @extend .font-medium-bold;
+      @extend .font-bold;
       line-height: 48px;
-      text-align: left;
+      color: $black-color;
+      margin-top: 0;
+      margin-bottom: 24px;
     }
     span{
       @extend .text-small;
-      width: 1170px;
       color: $font-color;
       line-height: 36px;
-      text-decoration: none solid rgb(102, 102, 255);
-      text-align: left;
       display: block;
     }
     div{
       p{
-        width: 1169px;
         font-size: 24px;
         color: #121212;
-        text-decoration: none solid rgb(18, 18, 18);
         line-height: 32px;
         font-weight: 600;
+        margin-bottom: 17px;
       }
       span{
-        width: 1169px;
-        /* Use ready MUI kit... */
         font-size: 20px;
         color: #121212;
-        text-decoration: none solid rgb(18, 18, 18);
         line-height: 28px;
+        margin-bottom: 30px;
       }
     }
   }
@@ -224,19 +222,21 @@
   display: flex;
   flex-direction: row;
   span{
-    margin-right: 3rem;
+    margin-right: 20px;
+  }
+  span:last-of-type{
+    margin-right: 0px;
   }
 }
 
 .logos{
-  margin-left: 1.5rem;
+  margin-left: 60px;
   img{
     margin-left: 1rem;
-
   }
 }
 
-.uxpin-logo{
+.uxpin-logo-footer{
   justify-self: left;
 }
 
@@ -251,7 +251,7 @@
 
 .footer{
   width: 1170px;
-  background-color: #000000;
+  background-color: $black-color;
   padding: 8rem 135px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -269,15 +269,13 @@
   p{
     opacity: 0.5;
     font-size: 12px;
-    color: #acacac;
-    text-decoration: none solid rgb(172, 172, 172);
+    color: $gray-color;
     line-height: 32px;
     letter-spacing: 2px;
   }
   span{
     font-size: 16px;
-    color: #acacac;
-    text-decoration: none solid rgb(172, 172, 172);
+    color: $gray-color;
     line-height: 32px;
   }
 }

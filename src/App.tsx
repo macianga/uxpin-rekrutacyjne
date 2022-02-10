@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className="mui-example">
         <div className="title">
-          <span className="text-large font-bold" style={{lineHeight: "1rem"}}>
+          <span className="text-large font-extra-bold" style={{lineHeight: "1rem"}}>
             Here comes MUI:<br/>fully interactive UI library<br/>
           </span>
         </div>
@@ -87,11 +87,11 @@ function App() {
           </span>
           <div>
             <p>Clear documentation for designers and developers</p>
-            <span>Use ready MUI kit documentation. Build consistent design systems and features with the help of documentation created for both designers and developers.</span>
+            <span><b className="font-semi-bold">Use ready MUI kit documentation.</b> Build consistent design systems and features with the help of documentation created for both designers and developers.</span>
             <p>UI components with true functional fidelity</p>
-            <span>Leverage the power of code to reach higher fidelity than ever. Build your design system and design with components that have built-in full interactivity.</span>
+            <span><b className="font-semi-bold">Leverage the power of code to reach higher fidelity than ever.</b> Build your design system and design with components that have built-in full interactivity.</span>
             <p>Built with accessibility in mind</p>
-            <span>Prototype with components that will help you reach a greater audience. Design with ready elements that are accessible. Make sure your product can be used by everyone.</span>
+            <span><b className="font-semi-bold">Prototype with components that will help you reach a greater audience.</b> Design with ready elements that are accessible. Make sure your product can be used by everyone.</span>
           </div>
         </div>
         <div>
@@ -108,7 +108,7 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <div className="uxpin-logo">
+        <div className="uxpin-logo-footer">
           <img src="/src/images/UXPin-Logo-WhiteFill.svg"/>
         </div>
         <div className="footer-menu">
@@ -126,6 +126,7 @@ function App() {
             <span>UXPin vs Figma</span>
             <span>UXPin vs Invision</span>
             <span>UXPin vs ...</span>
+            <span>&nbsp;</span>
           </div>
           <div className="footer-single-menu">
             <p>RESOURCES</p>
