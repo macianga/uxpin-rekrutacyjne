@@ -21,7 +21,9 @@
     align-self: center;
     justify-self: center;
     cursor: pointer;
-
+    div{
+      margin-top: 1px;
+    }
     span {
       @extend .text-xsmall;
       color: $gray-text-color;

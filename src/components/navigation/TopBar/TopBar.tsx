@@ -7,11 +7,11 @@ function TopBar() {
       <div className="top-bar-container">
         <div/>
         <div className="top-bar-logo-container">
-          <div className="icon-medium uxpin-logo-black-fill"/>
+          <a className="icon-medium uxpin-logo-black-fill"/>
         </div>
         <div>
           <span>Feature</span>
-          <div className="icon-small menu-arrow-icon"/>
+          <div style={{marginTop: "1px"}} className="icon-small menu-arrow-icon"/>
         </div>
         <div>
           <span>Examples</span>
