@@ -1,3 +1,7 @@
+Here is the finished version: https://uxpin-landing.web.app/ <br/>
+<hr/>
+<h1>Task:</h1>
+
 Set up a simple landing page with butterCMS (https://buttercms.com/).
 Here is the design: https://preview.uxpin.com/c75291be1ff048e8a99b9aa5b2062824b1385cc3#/pages/146806849?mode=cvdm
 
