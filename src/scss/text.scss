@@ -1,0 +1,35 @@
+@import "colors";
+
+.text{
+  color: $font-color;
+}
+
+.text-large{
+  @extend .text;
+  font-size: 64px;
+}
+.text-medium{
+  @extend .text;
+  font-size: 36px;
+}
+.text-small{
+  @extend .text;
+  font-size: 24px;
+}
+
+.text-xsmall{
+  @extend .text;
+  font-size: 14px;
+}
+
+.font-bold{
+  font-weight: 800;
+}
+
+.font-medium-bold{
+  font-weight: 700;
+}
+
+.font-medium-bold{
+  font-weight: 700;
+}

@@ -1,6 +1,6 @@
-$primary-color: #333;
-$bg-color: #f3f3f3;
-$font-color: #121212;
+@import "scss/text";
+@import "scss/colors";
+
 
 .main-content {
   text-align: center;
@@ -97,35 +97,7 @@ $font-color: #121212;
   }
 }
 
-.text{
-  color: $font-color;
-}
 
-.text-large{
-  @extend .text;
-  font-size: 64px;
-}
-.text-medium{
-  @extend .text;
-  font-size: 36px;
-}
-.text-small{
-  @extend .text;
-  font-size: 24px;
-}
-
-.text-xsmall{
-  @extend .text;
-  font-size: 14px;
-}
-
-.font-bold{
-  font-weight: 800;
-}
-
-.font-medium-bold{
-  font-weight: 700;
-}
 
 .mui-example{
   margin-top: 60px;
@@ -166,8 +138,10 @@ $font-color: #121212;
   font-size: 16px;
   color: #121212;
   text-decoration: none solid rgb(18, 18, 18);
-
   margin-right: 1.5rem;
+  &::placeholder{
+    color: $gray-color;
+  }
 }
 
 .button{
