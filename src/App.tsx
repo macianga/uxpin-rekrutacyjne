@@ -27,30 +27,30 @@ function App() {
         <div className="top-bar-grid">
           <div/>
           <div className="top-bar-logo-container">
-            <img className="top-bar-logo" src="/src/images/UXPin-Logo-BlackFill.svg"/>
+            <img alt="" className="top-bar-logo" src="/src/images/UXPin-Logo-BlackFill.svg"/>
           </div>
           <div>
             <span>Feature</span>
-            <img src="/src/images/menu-arrow.svg"/>
+            <img alt="" src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span>Examples</span>
           </div>
           <div>
             <span>Enterprise</span>
-            <img src="/src/images/menu-arrow.svg"/>
+            <img alt="" src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span>Pricing</span>
           </div>
           <div>
             <span>Resource</span>
-            <img src="/src/images/menu-arrow.svg"/>
+            <img alt="" src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span className="new-item">NEW</span>
             <span>Merge</span>
-            <img src="/src/images/menu-arrow.svg"/>
+            <img alt="" src="/src/images/menu-arrow.svg"/>
           </div>
           <div style={{textAlign: "left", width: "100%", marginLeft: "60px"}}>
             <span>1 (888) 802-9327</span>
@@ -127,12 +127,12 @@ function App() {
       </div>
       <div className="footer">
         <div className="uxpin-logo-footer">
-          <img src="/src/images/UXPin-Logo-WhiteFill.svg"/>
+          <img alt="" src="/src/images/UXPin-Logo-WhiteFill.svg"/>
         </div>
         <div className="footer-menu">
           <div className="footer-single-menu">
             <p>UXPIN</p>
-            <span></span>
+            <span/>
             <span>Import from Sketch</span>
             <span>Customers</span>
             <span>Enterprise</span>
@@ -140,7 +140,7 @@ function App() {
           </div>
           <div className="footer-single-menu">
             <p>COMPARE</p>
-            <span></span>
+            <span/>
             <span>UXPin vs Figma</span>
             <span>UXPin vs Invision</span>
             <span>UXPin vs ...</span>
@@ -148,7 +148,7 @@ function App() {
           </div>
           <div className="footer-single-menu">
             <p>RESOURCES</p>
-            <span></span>
+            <span/>
             <span>Docs</span>
             <span>Video Tutorials</span>
             <span>Blog</span>
@@ -156,7 +156,7 @@ function App() {
           </div>
           <div className="footer-single-menu">
             <p>ABOUT</p>
-            <span></span>
+            <span/>
             <span>Company</span>
             <span>Jobs</span>
             <span>Press Kit</span>
@@ -170,9 +170,9 @@ function App() {
           <span>Privacy</span>
           <span>Terms of Service</span>
           <div className="logos">
-            <img src="/src/images/facebook-logo.svg"/>
-            <img src="/src/images/twitter-logo.svg"/>
-            <img src="/src/images/dribbble-ball-logo.svg"/>
+            <img alt="" src="/src/images/facebook-logo.svg"/>
+            <img alt="" src="/src/images/twitter-logo.svg"/>
+            <img alt="" src="/src/images/dribbble-ball-logo.svg"/>
           </div>
         </div>
       </div>
