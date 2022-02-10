@@ -44,17 +44,6 @@ $font-color: #121212;
   }
 }
 
-
-
-
-
-.mui-example{
-  margin-top: 60px;
-  width: 100%;
-  padding-bottom: 5rem;
-  background-color: $bg-color;
-}
-
 .text{
   color: $font-color;
 }
@@ -85,11 +74,19 @@ $font-color: #121212;
   font-weight: 700;
 }
 
+.mui-example{
+  margin-top: 60px;
+  padding-top: 80px;
+  width: 100%;
+  padding-bottom: 5rem;
+  background-color: $bg-color;
+}
+
+
 .title{
-  width: 900px;
-  text-decoration: none solid rgb(18, 18, 18);
   line-height: 72px;
   display: inline;
+  margin-top: 10rem;
 }
 
 .description{
@@ -104,7 +101,8 @@ $font-color: #121212;
 }
 
 .email-input-group{
-
+  padding-top: 31px;
+  padding-bottom: 80px;
 }
 
 .input-email{
