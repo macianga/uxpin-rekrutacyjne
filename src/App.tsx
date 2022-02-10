@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className="mui-example">
         <div className="title">
-          <span className="text-large font-bold">
+          <span className="text-large font-bold" style={{lineHeight: "1rem"}}>
             Here comes MUI:<br/>fully interactive UI library<br/>
           </span>
         </div>
