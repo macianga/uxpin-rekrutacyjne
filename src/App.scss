@@ -46,10 +46,14 @@ $font-color: #121212;
   border-radius: 4px;
   background-color: #fcc820;
   background-size: cover;
+  font-weight: 600;
   color: #121212;
   text-decoration: none solid rgb(18, 18, 18);
   line-height: 16px;
   text-align: center;
+  &:hover{
+    background-color: $bg-color;
+  }
 }
 
 
@@ -180,7 +184,6 @@ $font-color: #121212;
   text-align: center;
   &:hover{
     background-color: $bg-color;
-
   }
 }
 
