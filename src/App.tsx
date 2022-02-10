@@ -1,5 +1,5 @@
 import './App.scss'
-import {useEffect, useState} from "react";
+import {FormEvent, useEffect, useState} from "react";
 import butter from "./utils/butter-client";
 import Footer from "./components/navigation/Footer/Footer";
 import TopBar from "./components/navigation/TopBar/TopBar";
@@ -22,6 +22,11 @@ function App() {
     asyncGetter();
   }, [])
 
+  const sendEmail = async (e: FormEvent<HTMLFormElement>)=>{
+    // additional validation might be needed
+    console.log(emailValue);
+    e.preventDefault();
+  }
 
   const getTextElement = (text: string | undefined) => {
     if(!text) return;
@@ -39,7 +44,7 @@ function App() {
         <span className="description">
           {getTextElement(pageContent?.header_description)}
         </span>
-        <form className="email-input-group" onSubmit={e => e.preventDefault()}>
+        <form className="email-input-group" onSubmit={e => sendEmail(e)}>
           <input
             type="email"
             className="input-email"
