@@ -33,7 +33,7 @@ function App() {
         <div className="top-bar-grid">
           <div/>
           <div className="top-bar-logo-container">
-            <div className="logo-black-fill logo-medium"/>
+            <div className="logo-medium uxpin-logo-black-fill"/>
           </div>
           <div>
             <span>Feature</span>
@@ -134,7 +134,7 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <div className="logo-white-fill logo-medium"/>
+        <div className="logo-medium uxpin-logo-white-fill"/>
         <div className="footer-menu">
           <div className="footer-single-menu">
             <p>UXPIN</p>
@@ -176,9 +176,9 @@ function App() {
           <span>Privacy</span>
           <span>Terms of Service</span>
           <div className="social-media-logos">
-            <div className="facebook-logo" style={{display: "inline-block"}}/>
-            <div className="twitter-logo" style={{display: "inline-block"}}/>
-            <div className="dribble-ball-logo" style={{display: "inline-block"}}/>
+            <div className="logo-xsmall facebook-logo" style={{display: "inline-block"}}/>
+            <div className="logo-xsmall twitter-logo" style={{display: "inline-block"}}/>
+            <div className="logo-xsmall dribble-ball-logo" style={{display: "inline-block"}}/>
           </div>
         </div>
       </div>
