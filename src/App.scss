@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.top-bar{
+.top-bar {
   position: fixed;
   top: 0;
   height: 60px;
@@ -20,31 +20,28 @@
   background-color: white;
 }
 
-.top-bar-logo-container{
+.top-bar-logo-container {
   width: 100%;
   display: flex;
   justify-content: end;
   margin-right: 24px;
 }
 
-.logo-white-fill{
-  background-image: url("images/UXPin-Logo-WhiteFill.svg");
-}
 
-.menu-arrow{
+.menu-arrow {
   background-image: url("images/menu-arrow.svg");
   width: 24px;
   height: 24px;
 }
 
 
-.log-in-text{
+.log-in-text {
   @extend .text-xsmall;
   padding-right: 1rem;
   align-self: center;
 }
 
-.log-in-button{
+.log-in-button {
   @extend .text-xsmall;
   height: 36px;
   padding: 8px 12px;
@@ -58,13 +55,14 @@
   line-height: 16px;
   text-align: center;
   cursor: pointer;
-  &:hover{
+
+  &:hover {
     background-color: $bg-color;
   }
 }
 
 
-.new-item{
+.new-item {
   border-radius: 2px;
   padding: 0 0.3rem;
   background-color: #fcc820;
@@ -80,31 +78,32 @@
 }
 
 
-.top-bar-grid{
+.top-bar-grid {
   margin: 0 0.75rem;
   display: grid;
   grid-template-columns: 0.5fr repeat(7, 1fr) 2fr 2fr 0.5fr;
   height: 100%;
-  div{
+
+  div {
     display: flex;
     flex-direction: row;
     align-self: center;
     justify-self: center;
     cursor: pointer;
-    span{
+
+    span {
       @extend .text-xsmall;
       color: $gray-text-color;
       line-height: 24px;
-      &:hover{
+
+      &:hover {
         text-decoration: underline;
       }
     }
   }
 }
 
-
-
-.mui-example{
+.mui-example {
   padding-top: 170px;
   width: 100%;
   padding-bottom: 5rem;
@@ -112,11 +111,11 @@
 }
 
 
-.title{
+.title {
   line-height: 72px;
 }
 
-.description{
+.description {
   width: 756px;
   height: 72px;
   font-size: 24px;
@@ -127,12 +126,12 @@
   display: inline;
 }
 
-.email-input-group{
+.email-input-group {
   padding-top: 31px;
   padding-bottom: 80px;
 }
 
-.input-email{
+.input-email {
   min-width: 284px;
   height: 0.75rem;
   padding: 16px;
@@ -143,22 +142,25 @@
   color: $font-color;
   margin-right: 1.5rem;
   cursor: pointer;
-  &::placeholder{
+
+  &::placeholder {
     color: $gray-color;
   }
-  &:focus{
+
+  &:focus {
     outline: none !important;
     border-color: $valid-green-color !important;
     color: unset !important;
   }
-  &:invalid{
+
+  &:invalid {
     outline: none !important;
     border-color: $invalid-red-color;
     color: $invalid-red-color;
   }
 }
 
-.button{
+.button {
   @extend .font-semi-bold;
   padding: 14px 30px;
   border: 2px solid #121212;
@@ -170,13 +172,14 @@
   line-height: 16px;
   text-align: center;
   cursor: pointer;
-  &:hover{
+
+  &:hover {
     background-color: $bg-color;
   }
 }
 
 
-.hero-img{
+.hero-img {
   width: 1170px;
   height: 464px;
   fill: #dadada;
@@ -184,22 +187,24 @@
   margin: auto;
 }
 
-.text-link{
+.text-link {
   color: $link-color;
   display: inline-block;
 }
 
 
-.questions{
+.questions {
   background-color: #ffffff;
   width: 1170px;
   text-align: left;
   margin-bottom: 100px;
   margin-top: 80px;
-  div{
+
+  div {
     //margin-bottom: 3rem;
     margin-bottom: 50px;
-    p{
+
+    p {
       @extend .text-medium;
       @extend .font-bold;
       line-height: 48px;
@@ -207,21 +212,24 @@
       margin-top: 0;
       margin-bottom: 24px;
     }
-    span{
+
+    span {
       @extend .text-small;
       color: $font-color;
       line-height: 36px;
       display: block;
     }
-    div{
-      p{
+
+    div {
+      p {
         font-size: 24px;
         color: #121212;
         line-height: 32px;
         font-weight: 600;
         margin-bottom: 17px;
       }
-      span{
+
+      span {
         font-size: 20px;
         color: #121212;
         line-height: 28px;
@@ -232,57 +240,31 @@
 }
 
 
-.social-n-terms{
+.social-n-terms {
   @extend .text-xsmall;
   color: #acacac;
   display: flex;
   flex-direction: row;
-  span{
+
+  span {
     margin-right: 20px;
   }
-  span:last-of-type{
+
+  span:last-of-type {
     margin-right: 0;
   }
 }
 
-.social-media-logos{
+.social-media-logos {
   margin-left: 60px;
-  *{
+
+  * {
     margin-left: 1rem;
   }
 }
 
-.logo-black-fill{
-  background-image: url("images/UXPin-Logo-BlackFill.svg");
-}
 
-.facebook-logo{
-  background-image: url("images/facebook-logo.svg");
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-}
-
-.twitter-logo{
-  background-image: url("images/twitter-logo.svg");
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-}
-
-.dribble-ball-logo{
-  background-image: url("images/dribbble-ball-logo.svg");
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-}
-
-.logo-medium{
-  width: 40px;
-  height: 40px;
-}
-
-.copyright{
+.copyright {
   @extend .text-xsmall;
   height: 14px;
   opacity: 0.5;
@@ -290,7 +272,7 @@
   text-align: left;
 }
 
-.footer{
+.footer {
   width: 1170px;
   background-color: $black-color;
   padding: 8rem 135px;
@@ -299,22 +281,25 @@
   row-gap: 5rem;
 }
 
-.footer-menu{
+.footer-menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.footer-single-menu{
+
+.footer-single-menu {
   display: grid;
   grid-template-columns: 1fr;
   text-align: left;
-  p{
+
+  p {
     opacity: 0.5;
     font-size: 12px;
     color: $gray-color;
     line-height: 32px;
     letter-spacing: 2px;
   }
-  span{
+
+  span {
     font-size: 16px;
     color: $gray-color;
     line-height: 32px;

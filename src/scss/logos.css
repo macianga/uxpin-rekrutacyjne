@@ -1,0 +1,33 @@
+.logo-medium {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-xsmall {
+    width: 16px;
+    height: 16px;
+}
+
+.uxpin-logo-black-fill {
+    background-image: url("src/images/UXPin-Logo-BlackFill.svg");
+}
+
+.uxpin-logo-white-fill {
+    background-image: url("src/images/UXPin-Logo-WhiteFill.svg");
+}
+
+
+.facebook-logo {
+    background-image: url("src/images/facebook-logo.svg");
+    background-repeat: no-repeat;
+}
+
+.twitter-logo {
+    background-image: url("src/images/twitter-logo.svg");
+    background-repeat: no-repeat;
+}
+
+.dribble-ball-logo {
+    background-image: url("src/images/dribbble-ball-logo.svg");
+    background-repeat: no-repeat;
+}
