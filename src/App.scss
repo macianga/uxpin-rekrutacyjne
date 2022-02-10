@@ -1,6 +1,6 @@
 @import "scss/text";
 @import "scss/colors";
-
+@import "scss/logos";
 
 .main-content {
   text-align: center;
@@ -27,9 +27,14 @@
   margin-right: 24px;
 }
 
-.top-bar-logo{
-  width: 40px !important;
-  height: 40px !important;
+.logo-white-fill{
+  background-image: url("images/UXPin-Logo-WhiteFill.svg");
+}
+
+.menu-arrow{
+  background-image: url("images/menu-arrow.svg");
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -93,10 +98,6 @@
       &:hover{
         text-decoration: underline;
       }
-    }
-    img{
-      width: 24px;
-      height: 24px;
     }
   }
 }
@@ -244,17 +245,42 @@
   }
 }
 
-.logos{
+.social-media-logos{
   margin-left: 60px;
-  img{
+  *{
     margin-left: 1rem;
   }
 }
 
-.uxpin-logo-footer{
-  justify-self: left;
+.logo-black-fill{
+  background-image: url("images/UXPin-Logo-BlackFill.svg");
 }
 
+.facebook-logo{
+  background-image: url("images/facebook-logo.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.twitter-logo{
+  background-image: url("images/twitter-logo.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.dribble-ball-logo{
+  background-image: url("images/dribbble-ball-logo.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.logo-medium{
+  width: 40px;
+  height: 40px;
+}
 
 .copyright{
   @extend .text-xsmall;

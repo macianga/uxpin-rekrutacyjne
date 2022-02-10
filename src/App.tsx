@@ -33,30 +33,30 @@ function App() {
         <div className="top-bar-grid">
           <div/>
           <div className="top-bar-logo-container">
-            <img alt="" className="top-bar-logo" src="/src/images/UXPin-Logo-BlackFill.svg"/>
+            <div className="logo-black-fill logo-medium"/>
           </div>
           <div>
             <span>Feature</span>
-            <img alt="" src="/src/images/menu-arrow.svg"/>
+            <div className="menu-arrow"/>
           </div>
           <div>
             <span>Examples</span>
           </div>
           <div>
             <span>Enterprise</span>
-            <img alt="" src="/src/images/menu-arrow.svg"/>
+            <div className="menu-arrow"/>
           </div>
           <div>
             <span>Pricing</span>
           </div>
           <div>
             <span>Resource</span>
-            <img alt="" src="/src/images/menu-arrow.svg"/>
+            <div className="menu-arrow"/>
           </div>
           <div>
             <span className="new-item">NEW</span>
             <span>Merge</span>
-            <img alt="" src="/src/images/menu-arrow.svg"/>
+            <div className="menu-arrow"/>
           </div>
           <div style={{textAlign: "left", width: "100%", marginLeft: "60px"}}>
             <span>1 (888) 802-9327</span>
@@ -134,9 +134,7 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <div className="uxpin-logo-footer">
-          <img alt="" src="/src/images/UXPin-Logo-WhiteFill.svg"/>
-        </div>
+        <div className="logo-white-fill logo-medium"/>
         <div className="footer-menu">
           <div className="footer-single-menu">
             <p>UXPIN</p>
@@ -177,10 +175,10 @@ function App() {
         <div className="social-n-terms">
           <span>Privacy</span>
           <span>Terms of Service</span>
-          <div className="logos">
-            <img alt="" src="/src/images/facebook-logo.svg"/>
-            <img alt="" src="/src/images/twitter-logo.svg"/>
-            <img alt="" src="/src/images/dribbble-ball-logo.svg"/>
+          <div className="social-media-logos">
+            <div className="facebook-logo" style={{display: "inline-block"}}/>
+            <div className="twitter-logo" style={{display: "inline-block"}}/>
+            <div className="dribble-ball-logo" style={{display: "inline-block"}}/>
           </div>
         </div>
       </div>
