@@ -1,5 +1,5 @@
 import Butter from 'buttercms'
 
-const butter = Butter('682035dd02ecc75d7fd66b99a91722eecb93c425')
+const butter = Butter(import.meta.env.VITE_BUTTERCMS_KEY)
 
 export default butter
