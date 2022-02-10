@@ -57,7 +57,7 @@ function App() {
         <div className="email-input-group">
           <form>
             <input
-              type="text"
+              type="email"
               className="input-email"
               placeholder="Work email"
             />
