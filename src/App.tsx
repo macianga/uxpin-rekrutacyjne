@@ -4,6 +4,7 @@ import butter from "./utils/butter-client";
 
 function App() {
   const [pageContent, setPageContent] = useState();
+  const [emailValue, setEmailValue] = useState("")
 
   useEffect(()=>{
     const asyncGetter = async ()=>{
@@ -73,13 +74,15 @@ function App() {
           </span>
         </div>
         <div className="email-input-group">
-          <form>
+          <form onSubmit={e => e.preventDefault()}>
             <input
               type="email"
               className="input-email"
               placeholder="Work email"
+              value={emailValue}
+              onChange={e=> setEmailValue(e.target.value)}
             />
-            <input type="button" className="button" value="Try MUI in UXPin"/>
+            <input type="submit" className="button" value="Try MUI in UXPin"/>
           </form>
         </div>
         <div className="hero-img"/>
