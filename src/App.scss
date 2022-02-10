@@ -16,12 +16,62 @@ $font-color: #121212;
   position: fixed;
   top: 0;
   height: 60px;
-  width: 80%;
+  width: 1440px;
   background-color: white;
 }
+
+.top-bar-logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.top-bar-logo{
+  width: 40px !important;
+  height: 40px !important;
+}
+
+
+.log-in-text{
+  @extend .text-xsmall;
+  padding-right: 1rem;
+  align-self: center;
+}
+
+.log-in-button{
+  @extend .text-xsmall;
+  height: 36px;
+  padding: 8px 12px;
+  border: 2px solid #121212;
+  border-radius: 4px;
+  background-color: #fcc820;
+  background-size: cover;
+  color: #121212;
+  text-decoration: none solid rgb(18, 18, 18);
+  line-height: 16px;
+  text-align: center;
+}
+
+
+.new-item{
+  border-radius: 2px;
+  padding: 0 0.3rem;
+  background-color: #fcc820;
+  background-size: cover;
+  font-size: 12px !important;
+  font-weight: 600;
+  color: #121212 !important;
+  text-decoration: none solid rgb(18, 18, 18);
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 0.3rem;
+}
+
+
 .top-bar-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr 0.5fr;
   height: 100%;
   div{
     display: flex;
@@ -29,7 +79,6 @@ $font-color: #121212;
     align-self: center;
     justify-self: center;
     span{
-      width: 55px;
       height: 24px;
       font-size: 14px;
       color: #666666;

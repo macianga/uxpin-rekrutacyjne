@@ -6,13 +6,16 @@ function App() {
     <div className="main-content">
       <div className="top-bar">
         <div className="top-bar-grid">
+          <div/>
+          <div className="top-bar-logo-container">
+            <img className="top-bar-logo" src="/src/images/UXPin-Logo-BlackFill.svg"/>
+          </div>
           <div>
             <span>Feature</span>
             <img src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span>Examples</span>
-            <img src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span>Enterprise</span>
@@ -20,19 +23,22 @@ function App() {
           </div>
           <div>
             <span>Pricing</span>
-            <img src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
             <span>Resource</span>
             <img src="/src/images/menu-arrow.svg"/>
           </div>
           <div>
+            <span className="new-item">NEW</span>
             <span>Merge</span>
             <img src="/src/images/menu-arrow.svg"/>
           </div>
-          <div/>
           <div>
             <span style={{width: "100%"}}>1 (888) 802-9327</span>
+          </div>
+          <div>
+            <span className="log-in-text">Log in</span>
+            <button className="log-in-button">Try for free</button>
           </div>
         </div>
       </div>
