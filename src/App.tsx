@@ -102,6 +102,9 @@ function App() {
         </div>
       </div>
       <div className="footer">
+        <div className="uxpin-logo">
+          <img src="/src/images/UXPin-Logo-WhiteFill.svg"/>
+        </div>
         <div className="footer-menu">
           <div className="footer-single-menu">
             <p>UXPIN</p>
@@ -133,6 +136,18 @@ function App() {
             <span>Jobs</span>
             <span>Press Kit</span>
             <span>etc.</span>
+          </div>
+        </div>
+        <span className="copyright">
+          © UXPin Inc. All rights reserved.
+        </span>
+        <div className="social-n-terms">
+          <span>Privacy</span>
+          <span>Terms of Service</span>
+          <div className="logos">
+            <img src="/src/images/facebook-logo.svg"/>
+            <img src="/src/images/twitter-logo.svg"/>
+            <img src="/src/images/dribbble-ball-logo.svg"/>
           </div>
         </div>
       </div>
